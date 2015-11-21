@@ -17,7 +17,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 1.6em;
-	
+
 }
 
 h1 {
@@ -120,12 +120,12 @@ Home sections
 .section-heading {
 	margin-bottom: 70px;
 }
-	
+
 .section-heading h2 {
 	font-size: 38px;
 	text-transform: uppercase;
 }
-	
+
 .section-heading .heading-line {
 	margin:0 auto;
 	display: block;
@@ -136,7 +136,7 @@ Home sections
 	margin-bottom: 20px;
 }
 
-	
+
 /* --- section bg var --- */
 
 .bg-white {
@@ -168,10 +168,10 @@ Home sections
 Spacer
 ============================= */
 
-#spacer1{	
+#spacer1{
 	background-image: url(../img/spacer/1.jpg);
 }
-#spacer2{	
+#spacer2{
 	background-image: url(../img/spacer/2.jpg);
 }
 
@@ -181,15 +181,15 @@ Intro
 ================================= */
 
 #intro{
-    height:635px;
-    width:100%;
-    background-color: #529abb;
-    background-image: url(../img/bg-mac.png);
-    background-position:center;
-    background-repeat:no-repeat;
-    overflow-y:hidden;
-    text-align:center;
-    position:relative;
+	height:635px;
+	width:100%;
+	background-color: #529abb;
+	background: url(../img/bg_1.jpg) no-repeat center;
+	background-size: cover;
+	background-position: scroll;
+	overflow-y:hidden;
+	text-align:center;
+	position:relative;
 }
 
 
@@ -207,10 +207,10 @@ Intro
 	color:#fff;
 	text-align:center;
 	font-weight: 700;
-	font-size: 40px; 
+	font-size: 40px;
 	line-height:1.1em;
 	padding-top:30px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 .intro-text h1 a:hover {
 	text-decoration: none;
@@ -344,7 +344,7 @@ Works
 	font-size: 24px;
 	opacity: 0;
 	filter: alpha(opacity=0); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
 	background: rgb(241,210,194);
 	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, rgba(241,210,194,1) 100%);
 	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,rgba(241,210,194,1)));
@@ -361,7 +361,7 @@ Works
 .lb-album li > a:hover span{
 	opacity: 1;
 	filter: alpha(opacity=99); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
 }
 .lb-overlay{
 	width: 0px;
@@ -386,7 +386,7 @@ Works
 	color: rgba(27,54,81,0.8);
 	opacity: 0;
 	filter: alpha(opacity=0); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
 	width: 550px;
 	margin: 10px auto 0px auto;
 	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
@@ -427,13 +427,13 @@ Works
 	width: 260px;
 }
 .lb-overlay a.lb-close{
-	
+
 	z-index: 1001;
 	color: #fff;
 	position: absolute;
 	top: 43px;
 	left: 50%;
-	
+
 	font-size: 28px;
 	line-height: 26px;
 	text-align: center;
@@ -443,7 +443,7 @@ Works
 	margin-left: -25px;
 	opacity: 0;
 	filter: alpha(opacity=0); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
 	-webkit-transition: opacity 0.3s linear 1.2s;
 	-moz-transition: opacity 0.3s linear 1.2s;
 	-o-transition: opacity 0.3s linear 1.2s;
@@ -476,36 +476,36 @@ Works
 .lb-overlay:target > div{
 	opacity: 1;
 	filter: alpha(opacity=99); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
 }
 @-webkit-keyframes fadeInScale {
-  0% { -webkit-transform: scale(0.6); opacity: 0; }
-  100% { -webkit-transform: scale(1); opacity: 1; }
+	0% { -webkit-transform: scale(0.6); opacity: 0; }
+	100% { -webkit-transform: scale(1); opacity: 1; }
 }
 @-moz-keyframes fadeInScale {
-  0% { -moz-transform: scale(0.6); opacity: 0; }
-  100% { -moz-transform: scale(1); opacity: 1; }
+	0% { -moz-transform: scale(0.6); opacity: 0; }
+	100% { -moz-transform: scale(1); opacity: 1; }
 }
 @-o-keyframes fadeInScale {
-  0% { -o-transform: scale(0.6); opacity: 0; }
-  100% { -o-transform: scale(1); opacity: 1; }
+	0% { -o-transform: scale(0.6); opacity: 0; }
+	100% { -o-transform: scale(1); opacity: 1; }
 }
 @-ms-keyframes fadeInScale {
-  0% { -ms-transform: scale(0.6); opacity: 0; }
-  100% { -ms-transform: scale(1); opacity: 1; }
+	0% { -ms-transform: scale(0.6); opacity: 0; }
+	100% { -ms-transform: scale(1); opacity: 1; }
 }
 @keyframes fadeInScale {
-  0% { transform: scale(0.6); opacity: 0; }
-  100% { transform: scale(1); opacity: 1; }
+	0% { transform: scale(0.6); opacity: 0; }
+	100% { transform: scale(1); opacity: 1; }
 }
 
-/* 
-	100% Height for Opera as the max-height seems to be ignored, not optimal for large screens 
-	http://bricss.net/post/11230266445/css-hack-to-target-opera 
-*/
-x:-o-prefocus, .lb-overlay img {
-    height: 100%;
-}
+/*
+	100% Height for Opera as the max-height seems to be ignored, not optimal for large screens
+	http://bricss.net/post/11230266445/css-hack-to-target-opera
+	*/
+	x:-o-prefocus, .lb-overlay img {
+		height: 100%;
+	}
 
 
 /* ================================
@@ -516,7 +516,7 @@ Contact
 /* ================================
 Bottom widget
 ================================= */
-ul.social-network {	
+ul.social-network {
 	margin: 0;
 	margin-left:0;
 	padding-left: 0;
@@ -547,8 +547,9 @@ more media queries
 
 @media (max-width:768px) {
 	#intro{
-		background-image: url(../img/bg-mac.png);
-		background-size:100%;
+		background: url(../img/bg_1.jpg) no-repeat center;
+		background-size: cover;
+		background-position: scroll;
 	}
 	.box-team, .box-team img {
 		text-align: center;
@@ -556,25 +557,27 @@ more media queries
 	.box-team img {
 		float: none;
 		margin:0 auto;
-	}	
+	}
 	.box-team {
 		margin-bottom: 30px;
 	}
 
-	
+
 }
 
 @media (max-width:992px) {
 
 
 	.service p{
-			margin-bottom: 60px;
+		margin-bottom: 60px;
 	}
 
 }
 
 @media (max-width:480px){
 	#intro{
-		background-image: none;
+		background: url(../img/bg_1.jpg) no-repeat center;
+		background-size: cover;
+		background-position: scroll;
 	}
 }
