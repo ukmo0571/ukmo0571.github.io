@@ -3,7 +3,7 @@
 blog_theme: light # Or use dark
 name: Chalk
 paginate: 25
-url: https://yangukmo.github.io
+url: "https://yangukmo.github.io"
 
 
 # Optional settings
