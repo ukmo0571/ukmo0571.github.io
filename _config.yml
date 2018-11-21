@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Ukmo Yang"
   avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Developer"
+  bio              : "Node.js Developer"
   location         : "Korea"
   email            : "ukmo0571@naver.com"
   links:
