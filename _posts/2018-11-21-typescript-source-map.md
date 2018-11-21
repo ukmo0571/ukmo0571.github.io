@@ -1,7 +1,7 @@
 ---
 title: "sourceMap으로 Error 추적하기"
 date: 2018-11-21 23:51:00 +0900
-categories: typescript ts error stack
+categories: typescript
 ---
 
 ## 시작
