@@ -4,6 +4,7 @@ date: 2018-11-21 23:51:00 +0900
 categories: typescript ts error stack
 ---
 
+## 시작
 Front-end, Back-end를 막론하고 TypeScript없이 개발하는 것은 상상할 수 없을 정도로 빠져있다. JavaScript에 비해 편리한 점이 많지만, 한편으로는 신경 써줘야 할 부분도 한두 가지가 아닌 것 같다. 그 중 한 가지는 Error 추적이다.
 
 ```ts
@@ -52,6 +53,8 @@ var test = new Test();
 어떻게 하면 stack만 보고 바로 추적할 수 있지 고민해봤는데 해결 방법은 생각보다 훨씬 간단했다.
 
 `sourceMap`은 이 고민을 해결해준다. 방법은 아래와 같다.
+
+## 적용
 
 1. *tsconfig.json* 파일에서 `sourceMap`을 `true`로 설정한다. 
     ```json
